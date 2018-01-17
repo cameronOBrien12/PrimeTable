@@ -1,0 +1,7 @@
+C:\Users\Cameron\Documents\Visual Studio 2015\Projects\CodingChallenges\PrimeTable(FindMyPast)\PrimeTable(FindMyPast)\bin\Debug\PrimeTable(FindMyPast).exe.config
+C:\Users\Cameron\Documents\GitHub\PrimeTable\PrimeTable(FindMyPast)\PrimeTable(FindMyPast)\bin\Debug\PrimeTable(FindMyPast).exe.config
+C:\Users\Cameron\Documents\GitHub\PrimeTable\PrimeTable(FindMyPast)\PrimeTable(FindMyPast)\bin\Debug\PrimeTable(FindMyPast).exe
+C:\Users\Cameron\Documents\GitHub\PrimeTable\PrimeTable(FindMyPast)\PrimeTable(FindMyPast)\bin\Debug\PrimeTable(FindMyPast).pdb
+C:\Users\Cameron\Documents\GitHub\PrimeTable\PrimeTable(FindMyPast)\PrimeTable(FindMyPast)\obj\Debug\PrimeTable(FindMyPast).csprojResolveAssemblyReference.cache
+C:\Users\Cameron\Documents\GitHub\PrimeTable\PrimeTable(FindMyPast)\PrimeTable(FindMyPast)\obj\Debug\PrimeTable(FindMyPast).exe
+C:\Users\Cameron\Documents\GitHub\PrimeTable\PrimeTable(FindMyPast)\PrimeTable(FindMyPast)\obj\Debug\PrimeTable(FindMyPast).pdb
