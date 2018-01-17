@@ -46,10 +46,61 @@ namespace PrimeTable_FindMyPast_
                         Console.Write(i + "| ");
                 }
             }
+            
+            //formatting table
+            Console.WriteLine("");
+            Console.WriteLine("----+---------");
 
+            //Finds the Prime numbers used for the Y-Axis and then used in loop to fill table
+            for (int i = 1; i < size + 2; i++)
+            {
+                //check if number is prime
+                prime = IsPrime(i);
+                if (prime == true)
+                {
+                    //need if for formatting again
+                    if (i < 10)
+                        Console.Write(i + "   | ");
+                    else if (i > 9 && i < 100)
+                        Console.Write(i + "  | ");
+                    else if (i > 99 && i < 1000)
+                        Console.Write(i + " | ");
+                    else
+                        Console.Write(i + "| ");
+
+
+                    //fills in table , times row by column
+                    for (int j = 1; j < size + 2; j++)
+                    {
+                        //check if both x and y axis are prime
+                        prime = IsPrime(i);
+                        prime2 = IsPrime(j);
+                        //if they both are then we will calculate their answer
+                        if (prime == true & prime2 == true)
+                        {
+                            int answer = j * i;
+                            //if for formatting of answers in table
+                            if (answer < 10)
+                                Console.Write(answer + "   | ");
+                            else if (answer > 9 && answer < 100)
+                                Console.Write(answer + "  | ");
+                            else if (answer > 99 && answer < 1000)
+                                Console.Write(answer + " | ");
+                            else
+                                Console.Write(answer + "| ");
+
+                        }
+                    }
+                    Console.Write("\n");
+                }
+            }
+            //statement to exit program
+            Console.WriteLine("");
+            Console.Write("Press enter to exit");
+            string exit = Console.ReadLine();
         }
 
-        //method used to check if a number is prime
+        //Method which finds if a number is prime or not, takes an int, returns a boolean
         static bool IsPrime(int i)
         {
             //1 is not prime
